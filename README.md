@@ -1,4 +1,4 @@
-seiyu
+seiyuu
 =====
 
 seiyuu
