@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		546B5213194E896E00912905 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546B5212194E896E00912905 /* AppDelegate.swift */; };
+		546B5215194E896E00912905 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546B5214194E896E00912905 /* ViewController.swift */; };
+		546B5218194E896E00912905 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 546B5216194E896E00912905 /* Main.storyboard */; };
+		546B521A194E896E00912905 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 546B5219194E896E00912905 /* Images.xcassets */; };
+		546B5226194E896E00912905 /* SeiyuuTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 546B5225194E896E00912905 /* SeiyuuTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		546B5220194E896E00912905 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 546B5205194E896E00912905 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 546B520C194E896E00912905;
+			remoteInfo = Seiyuu;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		546B520D194E896E00912905 /* Seiyuu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Seiyuu.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		546B5211194E896E00912905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546B5212194E896E00912905 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		546B5214194E896E00912905 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		546B5217194E896E00912905 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		546B5219194E896E00912905 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		546B521F194E896E00912905 /* SeiyuuTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SeiyuuTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		546B5224194E896E00912905 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		546B5225194E896E00912905 /* SeiyuuTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeiyuuTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		546B520A194E896E00912905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546B521C194E896E00912905 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		546B5204194E896E00912905 = {
+			isa = PBXGroup;
+			children = (
+				546B520F194E896E00912905 /* Seiyuu */,
+				546B5222194E896E00912905 /* SeiyuuTests */,
+				546B520E194E896E00912905 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		546B520E194E896E00912905 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				546B520D194E896E00912905 /* Seiyuu.app */,
+				546B521F194E896E00912905 /* SeiyuuTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		546B520F194E896E00912905 /* Seiyuu */ = {
+			isa = PBXGroup;
+			children = (
+				546B5212194E896E00912905 /* AppDelegate.swift */,
+				546B5214194E896E00912905 /* ViewController.swift */,
+				546B5216194E896E00912905 /* Main.storyboard */,
+				546B5219194E896E00912905 /* Images.xcassets */,
+				546B5210194E896E00912905 /* Supporting Files */,
+			);
+			path = Seiyuu;
+			sourceTree = "<group>";
+		};
+		546B5210194E896E00912905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				546B5211194E896E00912905 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		546B5222194E896E00912905 /* SeiyuuTests */ = {
+			isa = PBXGroup;
+			children = (
+				546B5225194E896E00912905 /* SeiyuuTests.swift */,
+				546B5223194E896E00912905 /* Supporting Files */,
+			);
+			path = SeiyuuTests;
+			sourceTree = "<group>";
+		};
+		546B5223194E896E00912905 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				546B5224194E896E00912905 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		546B520C194E896E00912905 /* Seiyuu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546B5229194E896E00912905 /* Build configuration list for PBXNativeTarget "Seiyuu" */;
+			buildPhases = (
+				546B5209194E896E00912905 /* Sources */,
+				546B520A194E896E00912905 /* Frameworks */,
+				546B520B194E896E00912905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Seiyuu;
+			productName = Seiyuu;
+			productReference = 546B520D194E896E00912905 /* Seiyuu.app */;
+			productType = "com.apple.product-type.application";
+		};
+		546B521E194E896E00912905 /* SeiyuuTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 546B522C194E896E00912905 /* Build configuration list for PBXNativeTarget "SeiyuuTests" */;
+			buildPhases = (
+				546B521B194E896E00912905 /* Sources */,
+				546B521C194E896E00912905 /* Frameworks */,
+				546B521D194E896E00912905 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				546B5221194E896E00912905 /* PBXTargetDependency */,
+			);
+			name = SeiyuuTests;
+			productName = SeiyuuTests;
+			productReference = 546B521F194E896E00912905 /* SeiyuuTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		546B5205194E896E00912905 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = zhangxinzheng;
+				TargetAttributes = {
+					546B520C194E896E00912905 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					546B521E194E896E00912905 = {
+						CreatedOnToolsVersion = 6.0;
+						TestTargetID = 546B520C194E896E00912905;
+					};
+				};
+			};
+			buildConfigurationList = 546B5208194E896E00912905 /* Build configuration list for PBXProject "Seiyuu" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 546B5204194E896E00912905;
+			productRefGroup = 546B520E194E896E00912905 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				546B520C194E896E00912905 /* Seiyuu */,
+				546B521E194E896E00912905 /* SeiyuuTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		546B520B194E896E00912905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546B5218194E896E00912905 /* Main.storyboard in Resources */,
+				546B521A194E896E00912905 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546B521D194E896E00912905 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		546B5209194E896E00912905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546B5215194E896E00912905 /* ViewController.swift in Sources */,
+				546B5213194E896E00912905 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		546B521B194E896E00912905 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				546B5226194E896E00912905 /* SeiyuuTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		546B5221194E896E00912905 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 546B520C194E896E00912905 /* Seiyuu */;
+			targetProxy = 546B5220194E896E00912905 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		546B5216194E896E00912905 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				546B5217194E896E00912905 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		546B5227194E896E00912905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		546B5228194E896E00912905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		546B522A194E896E00912905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Seiyuu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		546B522B194E896E00912905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Seiyuu/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		546B522D194E896E00912905 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Seiyuu.app/Seiyuu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeiyuuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Debug;
+		};
+		546B522E194E896E00912905 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Seiyuu.app/Seiyuu";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = SeiyuuTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		546B5208194E896E00912905 /* Build configuration list for PBXProject "Seiyuu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546B5227194E896E00912905 /* Debug */,
+				546B5228194E896E00912905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		546B5229194E896E00912905 /* Build configuration list for PBXNativeTarget "Seiyuu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546B522A194E896E00912905 /* Debug */,
+				546B522B194E896E00912905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		546B522C194E896E00912905 /* Build configuration list for PBXNativeTarget "SeiyuuTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				546B522D194E896E00912905 /* Debug */,
+				546B522E194E896E00912905 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 546B5205194E896E00912905 /* Project object */;
+}
